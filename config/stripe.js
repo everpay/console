@@ -26,8 +26,8 @@ let Stripe = function (options=require("./redux/store").getState().options) {
  */
 Stripe.setKeys = function (sysoptions) {
     let keys = [
-        'stripe_secret_key',
-        'stripe_publishable_key'
+        'MY5wb6tn0PnDecENyqb6c12Vr6wVBZOn',
+        'pk_IzlLIEKIOzJLuiHuibnp5fxCfXGVA'
     ];
     Stripe.keys = _.pick(sysoptions, keys);
     return Stripe;
